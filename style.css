@@ -6,22 +6,20 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f6f8;
+    background-image: url(https://i.pinimg.com/736x/14/45/2c/14452ca0dc4690a2fabcf65ad18ac276.jpg);
+    background-size:cover ;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* muda pra 'center' se quiser centralizar verticalmente total */
+    align-items: flex-start; 
     min-height: 100vh;
     padding: 40px 20px;
     color: #000000;
     flex-direction: column;
 }
-
-
-
 form {
     background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 15px 20px 10px rgb(0, 0, 0);
+    box-shadow:  0 0 100px rgba(0,0,0,0.1);
     padding: 25px;
     max-width: 500px;
     width: 100%;
@@ -47,7 +45,7 @@ input[type="submit"] {
 }
 
 input[type="submit"] {
-    background-color: #000000;
+    background-color: #fca4ce;
     color: white;
     border: none;
     cursor: pointer;
@@ -55,7 +53,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #27ae60;
+    background-color: #555;
 }
 
 a {
