@@ -16,13 +16,13 @@
             text-align: center;
         }
         .caixa {
-            font-size: 22px;
+            font-size: 20px;
             font-weight: bold;
-            margin-top: 15px;
+            
         }
          a {
-            display: inline-block;
-            margin-top: 20px;
+            
+          
             text-decoration: none;
             color:rgb(241, 183, 247);
         }
@@ -44,10 +44,10 @@ if ($usuario = $resultado->fetch_assoc()) {
         echo "Login realizado com sucesso. Bem-vindo, " . $usuario['nome'] . "!";
         // Aqui você pode iniciar sessão: session_start(), etc.
     } else {
-        echo "<div class='caixa'>Senha incorreta.";
+        echo "<div class='caixa'>Senha incorreta.       ";
     }
 } else {
-    echo "<div class='caixa'>E-mail não encontrado.";
+    echo "<div class='caixa'>E-mail não encontrado.      ";
 }
 ?>
 <a href="index.html">Continuar➞</a>
